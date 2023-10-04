@@ -4,7 +4,7 @@ Determine if a number is even or odd.
 '''
 
 number = int(input('please enter a number'))
-
+ 
 number = number % 2
 
 if number == 0:
