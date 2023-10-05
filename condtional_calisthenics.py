@@ -66,4 +66,4 @@ angle = input('enter a triangle angle')
 angle2 = input('enter a second angle')
 angle3 = input('enter a 3rd angle')
 
-if angle or angle2 or angle3 =
+#if angle or angle2 or angle3
