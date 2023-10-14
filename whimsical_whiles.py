@@ -19,6 +19,7 @@ while i > 0:
 3. Factorial Calculation:
 Write a program that calculates the factorial of a given number using a while loop.
 """ 
+   
 """
 4. Password Guessing Game:
 Create a simple password guessing game using a while loop. Ask the user to guess a predefined password and provide appropriate feedback.
@@ -29,24 +30,42 @@ while password != 'apples':
    if password == 'apples':
       print('Nice!')
    else :
-      print('Try again :(')
+      print('Try again')
 
 """
 5. Sum of Digits:
 Write a program that calculates the sum of the digits of a given number using a while loop.
 """
-c = 'Start'
-while c != 'Stop':
-    value = input('Give me a number: ')
-    val2 = input('give me a second number: ')
-    print(int(value) + int(val2) )
-    
-    
-    c = input("Type 'Stop' to stop or 'go' to continue: ")
-    if c == 'Stop' :
-        break
+
 
 """
 6. Fibonacci Series:
 Write a program that prints the first n numbers in the Fibonacci sequence using a while loop.
 """
+sum1 = 0
+sum2 = 0
+sum3 = 0
+sum4 = 0
+
+con = 'Start'
+
+while con != 'Stop' :
+    StartOfSeq = int(input('Give me a number for the start of the sequence: '))
+    SecondForSeq = int(input('Gigve me a second number for sequence: '))
+
+    sum1 = StartOfSeq + SecondForSeq 
+    sum2 = sum1 + SecondForSeq
+    sum3 = sum2 + sum1
+    sum4 = sum3 + sum2
+
+
+    print(sum1 , sum2 , sum3 , sum4)
+    
+    con = input('If you want to go again type "Go" or type "Stop" to stop: ')
+
+
+
+
+   
+
+
