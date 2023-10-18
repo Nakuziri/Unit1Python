@@ -80,7 +80,7 @@ assert avgfun([5,7,7,8,9]) == 7.2
 
 #trying invalid assert to handle gracefully
 try:
-    assert avgfun == 90
+    assert avgfun([5,7,7,8,9]) == 90
 #prints out except for assertion error
 except AssertionError:
     print('second avg assert is invalid')
