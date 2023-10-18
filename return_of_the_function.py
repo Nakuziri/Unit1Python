@@ -76,7 +76,7 @@ def avgfun(a):
 print(avgfun([5,7,7,8,9]))
 
 #sets valid assert to check function
-assert avgfun == 7.2
+assert avgfun([5,7,7,8,9]) == 7.2
 
 #trying invalid assert to handle gracefully
 try:
